@@ -63,7 +63,7 @@ public class JUnit {
 		List<QuestionBankEntity> list=new AnswerListService().getQuestionList();
 		System.out.println(list);
 	}
-	//测试录入比赛结果
+	//测试录入答题比赛结果
 	@Test
 	public void setResult(){
 		new SubmitAnswerResultService("1", new String[10], new String[10], "20", "100").save();

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+	
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">szw197121</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/cpccsdb</property>
+		<!-- 操作数据库时，向控制台输出sql语句 -->
+		<property name="show_sql">true</property>
+		<!-- 打印sql语句前将sql语句格式化 -->
+		<property name="format_sql">true</property>
+		<!-- 表结构 生成策略 -->
+		<property name="hbm2ddl.auto">update</property>
+		<property name="hibernate.connection.autocommit">true</property>
+		
+		<mapping resource="com/wechat_small_program/entity/ErrorEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/InformEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/LaunchMatchEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/LoginEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/MatchEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/NewsEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/QuestionBankEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/StudyEntity.hbm.xml" />
+		<mapping resource="com/wechat_small_program/entity/UserInfoEntity.hbm.xml" />
+		
+	</session-factory>
+</hibernate-configuration>

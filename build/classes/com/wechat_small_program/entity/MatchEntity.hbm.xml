@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.wechat_small_program.entity.MatchEntity" table="t_match_list">
+		<id name="id" column="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="uid" column="uid"></property>
+		<property name="grade" column="grade"></property>
+		<property name="time" column="time"></property>
+		<property name="matchId" column="matchId"></property>
+	</class>
+</hibernate-mapping>

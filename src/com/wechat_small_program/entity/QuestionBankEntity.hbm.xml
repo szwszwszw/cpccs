@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.wechat_small_program.entity.QuestionBankEntity" table="t_question_bank">
+		<id name="id" column="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="question" column="question"></property>
+		<property name="answer" column="answer"></property>
+		<property name="A" column="A"></property>
+		<property name="B" column="B"></property>
+		<property name="C" column="C"></property>
+		<property name="D" column="D"></property>
+		<property name="analysis" column="analysis"></property>
+	</class>
+</hibernate-mapping>

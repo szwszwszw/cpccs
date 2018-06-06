@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	
+<struts>
+	
+	<package name="deafult" extends="json-default" namespace="/">
+		<!-- 微信小程序action开始 -->
+		
+		<!-- 登录action -->
+		<action name="wxlogin" class="com.wechat_small_program.action.LoginAction" method="login">
+			<result name="success" type="json"></result>
+		</action>
+		<!-- 主页加载action -->
+		<action name="wxmainpageload" class="com.wechat_small_program.action.MainPageLoadAction" method="mainPageLoad">
+			<result name="success" type="json"></result>
+		</action>
+		<!-- 答题页面初始化action -->
+		<action name="wxanswerlist" class="com.wechat_small_program.action.AnswerListAction" method="getList">
+			<result name="success" type="json"></result>
+		</action>
+		<!-- 给小程序返回错题列表action -->
+		<action name="wxerrorlist" class="com.wechat_small_program.action.ErrorRecordAction" method="returnList">
+			<result name="success" type="json"></result>
+		</action>
+		<!-- 修改个人信息action -->
+		<action name="wxchangeuserinfo" class="com.wechat_small_program.action.ChangeUserInfoAction" method="changeUserInfo">
+			<result name="success" type="json"></result>
+		</action>
+		<!-- 用户提交答题结果 -->
+		<action name="submitanswerresult" class="com.wechat_small_program.action.SubmitAnswerResultAction" method="saveResult">
+			<result name="success" type="json"></result>
+		</action>
+		
+		<!-- 微信小程序action结束 -->
+		
+		<!-- 后台管理action开始 -->
+		<!-- 后台管理登录 -->
+		<action name="bmlogin" class="com.back_stage_management.action.LoginAction" method="login">
+			<result name="success" type="dispatcher">/pages/main/main.html</result>
+			<result name="fail" type="json"></result>
+		</action>
+		
+		<!-- 后台管理action结束 -->
+		
+	</package>
+
+</struts>

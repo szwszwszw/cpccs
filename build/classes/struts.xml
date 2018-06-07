@@ -17,7 +17,11 @@
 			<result name="success" type="json"></result>
 		</action>
 		<!-- 答题页面初始化action -->
-		<action name="wxanswerlist" class="com.wechat_small_program.action.AnswerListAction" method="getList">
+		<action name="wxanswerlist" class="com.wechat_small_program.action.AnswerListAction" method="returnList">
+			<result name="success" type="json"></result>
+		</action>
+		<!-- 学习页面初始化 -->
+		<action name="wxstudylist" class="com.wechat_small_program.action.StudyListAction" method="returnList">
 			<result name="success" type="json"></result>
 		</action>
 		<!-- 给小程序返回错题列表action -->
@@ -26,6 +30,10 @@
 		</action>
 		<!-- 修改个人信息action -->
 		<action name="wxchangeuserinfo" class="com.wechat_small_program.action.ChangeUserInfoAction" method="changeUserInfo">
+			<result name="success" type="json"></result>
+		</action>
+		<!-- 修改密码 -->
+		<action name="wxchangePwd" class="com.wechat_small_program.action.ChangePwdAction" method="changePwd">
 			<result name="success" type="json"></result>
 		</action>
 		<!-- 用户提交答题结果 -->

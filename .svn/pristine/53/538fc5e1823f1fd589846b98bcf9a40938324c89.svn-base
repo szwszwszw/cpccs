@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>掌上党建后台管理系统</title>
+	<link rel="stylesheet" type="text/css" href="mainPage.css">
+	<script type="text/javascript" src="../jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="mainPage.js"></script>
+</head>
+<body>
+	<div id="global_variable" class="global_variable">
+		<div id="top" class="top">
+			<div style="height: 100%;width: 5%"><img src="../../images/logo.jpg" style="width: 100%;height: 100%"></div>
+		</div>
+		<div id="buttom" class="buttom">
+			<div id="left" class="left">
+				<div id="data_cente" class="data_cente">数据中心</div>
+				<div id="news_manage" class="news_manage">新闻管理</div>
+				<div id="inform_manage" class="inform_manage">公告管理</div>
+				<div id="user_manage" class="user_manage">用户管理</div>
+				<div id="cpccs_work" class="cpccs_work">党建工作</div>
+			</div>
+			<div id="right" class="right">
+				<iframe src="http://www.baidu.com" style="height: 100%;width: 100%"></iframe>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

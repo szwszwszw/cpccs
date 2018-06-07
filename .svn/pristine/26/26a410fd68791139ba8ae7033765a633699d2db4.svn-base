@@ -1,0 +1,53 @@
+body{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.global_variable{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.top{
+	background-color: rgb(232,231,234);
+	height: 5%;
+	width: 100%;
+	margin: 0;
+}
+.buttom{
+	background-color: #706B6B;
+	height: 95%;
+	width: 100%;
+	margin: 0;
+	
+}
+.left{
+	background-color: #515869;
+	height: 100%;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+.right{
+	background-color: rgb(89,111,147);
+	height: 100%;
+	width: 85%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+
+/*宸﹁竟瀵艰埅鏍�*/
+.data_cente,.news_manage,.inform_manage,.user_manage,.cpccs_work{
+	position: relative;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 5%;
+	height: 10%;
+	width: 100%;
+	font-size: 150%;
+}

@@ -1,0 +1,73 @@
+body{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.global_variable{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.top{
+	background-color: rgb(232,231,234);
+	height: 5%;
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+.buttom{
+	background-color: #706B6B;
+	height: 95%;
+	width: 100%;
+	margin: 0;
+	
+}
+.left{
+	background-color: #515869;
+	height: 100%;
+	width: 13%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+
+}
+.right{
+	background-color: rgb(89,111,147);
+	height: 100%;
+	width: 87%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+
+/*左边导航栏*/
+.data_cente,.news_manage,.inform_manage,.user_manage,.cpccs_work{
+	position: relative;
+	margin-left: 3%;
+	margin-right: 0;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	height: 10%;
+	font-size: 150%;
+}
+.div1{
+	position: relative;
+	float: left;
+	height: 80%;
+	width: 30%;
+	margin-top: 5%;
+	padding: 0;
+	border: 0;
+}
+.div2{
+	position: relative;
+	float: left;
+	width: 70%;
+	margin-top: 17%;
+	padding: 0;
+	border: 0;
+	color: #FFFFFF;
+}

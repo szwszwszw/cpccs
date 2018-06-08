@@ -1,0 +1,67 @@
+body{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.global_variable{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #272821;
+}
+.div1{
+	position: relative;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	top:25%;
+	/*background-color: #F64D4D;*/
+}
+.jingsai_detail{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 5%;
+	top:5%;
+	background-color: #FC6C7A;
+}
+.dati_detail{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 55%;
+	top:5%;
+	background-color: #6370FC;
+}
+.add_jingsai{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 5%;
+	top:55%;
+	background-color: #BD8BFC;
+}
+.add_tiku{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 55%;
+	top:55%;
+	background-color: #5BD151;
+}

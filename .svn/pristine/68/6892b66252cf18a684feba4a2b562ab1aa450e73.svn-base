@@ -1,0 +1,67 @@
+body{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.global_variable{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #272821;
+}
+.div1{
+	position: relative;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	top:25%;
+	/*background-color: #F64D4D;*/
+}
+.user_info{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 5%;
+	top:5%;
+	background-color: #04FB3B;
+}
+.user_fankui{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 55%;
+	top:5%;
+	background-color: #444BFC;
+}
+.user_fenghao{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 5%;
+	top:55%;
+	background-color: #07F6F8;
+}
+.user_other{
+	position: absolute;
+	margin: 0;
+	border-width: 0;
+	padding: 0;
+	width: 40%;
+	height: 40%;
+	left: 55%;
+	top:55%;
+	background-color: #FC6BC3;
+}
